@@ -17,7 +17,7 @@ public class StartPanel extends JPanel{
 		this.width = width;
 		this.height = height;
 		
-		ImageIcon IconImage = new ImageIcon(StartPanel.class.getResource("/images/titlesmall.png"));
+		ImageIcon IconImage = new ImageIcon(StartPanel.class.getResource("/images/titleSmall.png"));
 		iconLabel.setIcon(IconImage);
 		iconLabel.setBounds(25, 0, IconImage.getIconWidth(), IconImage.getIconHeight());
 		this.add(iconLabel);

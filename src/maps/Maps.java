@@ -64,7 +64,7 @@ public class Maps{
 				}
 			}
 		}
-		
+		br.close();
 		fin.close();
 	}
 	
